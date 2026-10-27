@@ -4,7 +4,7 @@ A phone-friendly map of Steam games. Each dot is a game. Games with similar stor
 
 Open the map: https://brbselling.github.io/ideaplotter/
 
-Current build: `sample2000-bf16`, 2000 games, built 2026-10-26 11:03 CET.
+Current build: `full-bf16`, 136053 games, built 2026-10-27 15:37 CET.
 
 How it is made: each game's name, top tags, genres, play modes and store descriptions are embedded with Qwen3-Embedding-0.6B. Clusters come from Louvain clustering on a 10-nearest-neighbour graph, and the 2D layout comes from UMAP. Only names, Steam app IDs, cluster labels and map points are published here.
 
